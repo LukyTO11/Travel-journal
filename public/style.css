@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav {
+    width: 550px;
+    height: 55px;
+    background: #F55A5A;
+    margin-bottom: 50px;
+}
+
+.nav--title {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    padding-top: 20px;
+}
+
+.earth-icon {
+    position: absolute;
+    top: 16px;
+    left: 180px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom: 36px;
+}
+
+.main-image {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.main-info {
+    margin-top: 9px;
+    width: 326px;
+}
+
+.main-country {
+    margin-left: 4px;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    text-transform: uppercase;
+}
+
+.main-maps{
+    margin-left: 12px;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.main-date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+
+.main-description {
+    margin-top: 9px;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
